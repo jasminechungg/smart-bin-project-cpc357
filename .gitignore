@@ -6,3 +6,9 @@ venv/
 # Secrets
 .env
 smartbin-key.json
+
+# Arduino / ESP32
+*.bin
+*.elf
+*.hex
+build/
