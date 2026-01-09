@@ -45,12 +45,12 @@ The **Smart City Smart Bin Monitoring System** is a **prototype IoT solution** f
 
 | Component | Description |
 | :--- | :--- |
-| **ESP32** | Maker Feather AIoT S3 (or generic ESP32) |
+| **ESP32** | Maker Feather AIoT S3 |
 | **Ultrasonic Sensor** | HC-SR04 or compatible (measure fill level) |
 | **Linear Actuator** | For compression mechanism |
 | **LED** | Visual indicator of system state |
-| **Jumper Wires** | For prototyping |
-| **Power Supply** | 5V suitable for ESP32 & actuator |
+| **Jumper Wires** | For prototyping and connectivity of hardware |
+| **Power Supply** | 5V suitable for ESP32 & 12V for actuator |
 
 ---
 
@@ -58,9 +58,9 @@ The **Smart City Smart Bin Monitoring System** is a **prototype IoT solution** f
 
 | Component | Version / Notes |
 | :--- | :--- |
-| **Arduino IDE** | 1.8+ or PlatformIO |
+| **Arduino IDE** | 2.3.7 |
 | **Python** | 3.9+ |
-| **Streamlit** | Latest (e.g., 1.24) |
+| **Streamlit** | 1.52.0 |
 | **Firebase Account** | Realtime Database enabled |
 | **Python Libraries** | `streamlit`, `firebase_admin`, `pandas`, `numpy`, `pydeck`, `geopy` |
 
@@ -113,8 +113,6 @@ SERVICE_ACCOUNT_KEY = "smartbin-key.json"
 #define DATABASE_URL "https://<your-project-id>.firebaseio.com"
 ```
 
-> ⚠️ Security Note: Never commit your Firebase keys to public repositories. Use .gitignore or environment variables.
-
 ### Step 4: Arduino Setup
 1. Open arduino/smart_bin.ino in Arduino IDE.
 
@@ -122,7 +120,6 @@ SERVICE_ACCOUNT_KEY = "smartbin-key.json"
 
 ```text
 Firebase ESP Client
-
 TinyGPSPlus
 ```
 
@@ -196,6 +193,7 @@ TinyGPSPlus
 
 ## 9️⃣ Notes & Recommendations
 Ensure ESP32 has stable Wi-Fi for real-time updates.
+Ensure the actuator has a reliable and sufficient power source.
 
 Keep Arduino firmware thresholds configurable:
 
