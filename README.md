@@ -164,16 +164,16 @@ ESP32 Firmware
 * Sends data to Firebase: fill %, state, GPS location.
 
 Streamlit Dashboard
-* Fetches data from Firebase.
+*Fetches data from Firebase.
 
-* Displays bins on an interactive map (PyDeck).
+*Displays bins on an interactive map (PyDeck).
 
-* Shows metrics, alerts, and fill levels.
+*Shows metrics, alerts, and fill levels.
 
-* Provides overview of neighbor bins for context.
+*Provides overview of neighbor bins for context.
 
 Hardware Wiring Diagram
-* File: assets/wiring_diagram.png
+*File: assets/wiring_diagram.png
 
 ## 8️⃣ Libraries Used
 
