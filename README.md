@@ -170,7 +170,7 @@ The dashboard shows:
  • Provides overview of neighbor bins for context.
 
 **Hardware Wiring Diagram**
- • File: assets/wiring_diagram.png
+ • File: wiring_diagram.png
 
 ## 8️⃣ Libraries Used
 
