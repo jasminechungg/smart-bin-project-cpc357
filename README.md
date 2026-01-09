@@ -150,30 +150,30 @@ The dashboard shows:
 
 ## 7️⃣ How It Works
 
-ESP32 Firmware
-* Measures fill % using ultrasonic sensor.
+**ESP32 Firmware
+ • Measures fill % using ultrasonic sensor.
 
-* Controls actuator: compresses bin at 60% fill, retracts after 15s.
+ • Controls actuator: compresses bin at 60% fill, retracts after 15s.
 
-* LED Indicator:
+ • LED Indicator:
 
-** Blinking: during compression/retraction
+    • Blinking: during compression/retraction
 
-** Solid ON: if bin is full/jammed
+    • Solid ON: if bin is full/jammed
 
-* Sends data to Firebase: fill %, state, GPS location.
+ • Sends data to Firebase: fill %, state, GPS location.
 
-Streamlit Dashboard
-*Fetches data from Firebase.
+**Streamlit Dashboard
+ • Fetches data from Firebase.
 
-*Displays bins on an interactive map (PyDeck).
+ • Displays bins on an interactive map (PyDeck).
 
-*Shows metrics, alerts, and fill levels.
+ • Shows metrics, alerts, and fill levels.
 
-*Provides overview of neighbor bins for context.
+ • Provides overview of neighbor bins for context.
 
-Hardware Wiring Diagram
-*File: assets/wiring_diagram.png
+**Hardware Wiring Diagram
+ • File: assets/wiring_diagram.png
 
 ## 8️⃣ Libraries Used
 
