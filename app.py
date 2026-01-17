@@ -23,8 +23,8 @@ from geopy.extra.rate_limiter import RateLimiter
 
 
 # ================= FIREBASE CONFIGURATION =================
-# Firebase Realtime Database URL
-FIREBASE_DB_URL = "https://smartbin-3dced-default-rtdb.asia-southeast1.firebasedatabase.app"
+# replace with Firebase Realtime Database URL
+FIREBASE_DB_URL = "https://smartbin-xxx.asia-southeast1.firebasedatabase.app"
 
 # Firebase service account key (should be ignored in .gitignore)
 SERVICE_ACCOUNT_KEY = "smartbin-key.json"
