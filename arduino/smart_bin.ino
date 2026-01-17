@@ -11,8 +11,10 @@
 #define WIFI_SSID "Zzz"
 #define WIFI_PASSWORD "kembangcomel"
 
-#define API_KEY "AIzaSyAKVVvW9IInCuPnromQVLlIIZLlxKUWLtQ"
-#define DATABASE_URL "https://smartbin-3dced-default-rtdb.asia-southeast1.firebasedatabase.app"
+#define API_KEY "xxx" 
+//replace with API key
+#define DATABASE_URL "xxx" 
+//replace with database url
 
 // ================= PIN DEFINITIONS =================
 // Motor control pins
